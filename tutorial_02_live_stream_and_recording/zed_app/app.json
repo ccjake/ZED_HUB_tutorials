@@ -1,0 +1,23 @@
+{
+    "name": "My2",
+    "description": "An application that can do anything.",
+     "release":{
+        "name": "0.1.0",
+        "description": "Initial release",
+        "type":"docker-compose",
+        "default_parameters": {
+            "requested":{
+                "core": { "disable_app": false },
+                "local_stream": false
+            }
+        }
+    },
+    "permissions": {
+        "camera": true
+    },
+    "auto_install": false,
+    "restart_policy": "always",
+    "user_data": {
+
+    }
+}

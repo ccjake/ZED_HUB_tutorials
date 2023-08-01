@@ -1,0 +1,15 @@
+version: "2.3"
+services:
+  pars_service:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+      args:
+        BUILD_IMAGE: stereolabs/iot:0.73.0-devel-jetson-l4t35.3-zed4.0
+        # Use the devel image to prevent to pull another one since the devel one must be pulled during the build stage 
+        RUNTIME_IMAGE: stereolabs/iot:0.73.0-devel-jetson-l4t35.3-zed4.0
+    runtime: nvidia
+    environment:
+      - MESA_GL_VERSION_OVERRIDE=3.3
+    privileged: true
+    network_mode: "host"

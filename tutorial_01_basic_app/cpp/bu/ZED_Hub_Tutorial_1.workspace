@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="ZED_Hub_Tutorial_1" Version="10.0.0">
+  <Project Name="ZED_Hub_Tutorial_1" Path="ZED_Hub_Tutorial_1.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="NoConfig" Selected="yes">
+      <Project Name="ZED_Hub_Tutorial_1" ConfigName="NoConfig"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
